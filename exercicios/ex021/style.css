@@ -1,0 +1,73 @@
+@charset "UTF-8";
+body{
+
+background-color: rgb(99, 96, 96);    
+font-family: Arial, Helvetica, sans-serif;
+}
+header{
+text-align: center;
+height: 100px;
+background-color: white;
+padding: 5px;
+border-radius: 10px;
+outline: solid;
+outline-color: rgba(31, 36, 41, 0.247);
+}
+a.menu{
+text-decoration: none;
+font-weight: bolder;  
+color: white; 
+margin: 20px 20px 20px 50px;
+width: 50px;
+}
+a:hover{
+text-decoration: underline;}
+nav{
+background-color: gray;
+margin-left: 36.5%;
+width: max-content;
+text-align: center;
+border-radius: 5px;
+box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.678) ;
+padding-right: 25px;
+padding-left:;
+}
+main{
+background-color: white;
+padding-bottom: 5px;
+border-radius: 10px;
+text-align: center;
+text-justify: auto;
+}
+
+article{
+background-color: rgb(184, 184, 184);
+margin: 20px;
+padding-bottom: 20px;
+}
+
+section#assuntos{
+    
+}
+section > p {
+font-weight: bolder;
+font-size: 20px;
+}
+a.categorias{
+color: black;
+text-decoration: none;
+}
+a.categorias:hover{
+text-decoration: underline;
+color: (36, 35, 35);
+}
+footer{
+background-color: black;
+height: 80px;
+border-radius: 10px;
+}
+p.rodape{
+color:white;
+text-align: center; 
+padding: 30px;
+}
