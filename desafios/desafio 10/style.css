@@ -1,0 +1,121 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: 'idroid';
+    src: url(fontes/idroid.otf);
+}
+body{
+background-color: rgba(100, 197, 157, 0.377);
+
+
+    
+}
+header{
+height: 141px;
+background-image: linear-gradient(to top, rgb(41, 94, 41), rgb(121, 204, 121));
+margin-top: -30px;
+margin-left: -10px;
+margin-right: -10px;
+}
+h1{
+color: rgb(255, 255, 255);   
+font-family: Arial, Helvetica, sans-serif; 
+text-align: center;
+margin-top: 30px;
+padding-top: 18px;
+}
+p.pheader{
+color: white;
+text-align: center;
+font-family: Arial, Helvetica, sans-serif;
+}
+a.aheader{
+font-size: 18px; 
+color: white;   
+margin: 10px;
+text-decoration: none;
+font-family: Arial, Helvetica, sans-serif;
+margin-top: 18px;
+padding: 12px;
+}
+main{
+background-color: white;
+height: auto;
+width: auto;
+text-align: center;
+border-bottom-left-radius: 10px;
+border-bottom-right-radius: 10px;
+width: 1000px;
+margin-left: 24%;
+
+}
+h2.historia{
+font-family: 'idroid';
+color: rgb(38, 92, 43);
+margin-top: 24px;
+padding-top: 10px;
+}
+h2.novomascote{
+font-family: 'idroid';
+color: rgb(38, 92, 43);
+background-color: rgba(100, 197, 157, 0.342);
+width: 500px;
+margin-left: 350px;
+border-radius: 20px;
+}
+div.youtube{
+background-color: rgb(41, 94, 41);
+height: 437px;
+padding-top: 92px;
+padding-bottom: 10px;
+margin: 0px;
+}
+div.final{
+height: 458px;
+background-color:  rgba(100, 197, 157, 0.377);   
+margin-left: 10px;
+margin-right: 10px;
+border-radius: 15px;
+height: 340px;
+
+}
+
+div.final > h3{
+background-color: rgb(121, 204, 121);
+border-top-left-radius: 15px;
+border-top-right-radius: 15px;
+padding-top: 10px;
+padding-bottom: 10px;
+color: white;
+
+}
+
+div.lista{
+    display: flex;   
+    text-decoration: none; 
+    text-align: center;  
+    margin-left: 414px;
+    margin-right: 20px; 
+}
+div.lista > ul{list-style-type: none;}
+
+h4{
+padding-bottom: 10px;    
+}
+footer{
+background-color:rgb(41, 94, 41); 
+margin-left: -10px;
+margin-right: -10px;
+
+}
+
+footer > p{
+color: white;
+height: 24px;
+margin-bottom: -14px;
+text-align: center;
+}
+a.aheader:hover{
+text-decoration: underline;
+color: rgba(54, 248, 86, 0.185);
+}
